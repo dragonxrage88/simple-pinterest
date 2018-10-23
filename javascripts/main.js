@@ -1,1 +1,3 @@
-console.log('js linked!')
+import {initalizeBoardView} from './componts/bords.js'
+
+initalizeBoardView();
