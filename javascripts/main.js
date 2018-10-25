@@ -1,3 +1,7 @@
-import {initalizeBoardView} from './componts/bords.js'
+import {initalizeBoardView} from './components/boards.js';
 
-initalizeBoardView();
+const initializeApp = () => {
+  initalizeBoardView();
+}
+
+initializeApp();

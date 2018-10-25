@@ -1,12 +1,14 @@
 const loadBoards = () => {
     return new Promise((resolve, reject) => {
-        $.get('../db/boards.json')
+      $.get('../db/boards.json')
         .done((data) => {
-            resolve(data.boards);
+          console.log(data);
+          resolve(data.boards);
         })
         .fail((error) => {
-            reject(error);
+          reject(error);
         })
     });
-}
-export {loadBoards}
+  }
+  
+  export {loadBoards};
